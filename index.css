@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: #468853;
+    width: 575px;
+    height: 385;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #071a0f;
+    font-family: "Quantico", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+.scoreAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.score {
+    background-color: #e09200;
+    width: 155px;
+    height: 120;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px inset #a84f0e;
+    box-shadow: 0 0 15px #a84f0e;
+
+}
+#score-home {
+    color: #071a0f;
+    font-family: "Quantico", sans-serif;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    height: 118px;   
+}
+#score-guest {
+    color: #071a0f;
+    font-family: "Quantico", sans-serif;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 0px;    
+}
+@font-face {
+    font-family: "Quantico", sans-serif;
+    src: url("/assets/CursedTimerUlil-Aznm.ttf") ;
+}
+.btn {
+    width: 150px;
+    height: 45px;
+    background: none;
+    border: 2px solid #071a0f;
+    border-radius: 5px;
+    color: #071a0f;
+    font-family: "Quantico", sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn:hover {
+    background-color: #071a0f;
+    color: #468853;
+    cursor:pointer;
+    transition: 0.5s;
+}
+#new-btn {
+    width: 150px;
+    margin-top: 20px;
+    color: #071a0f;
+    border: 2px solid #071a0f;
+}
+#new-btn:hover {
+    background-color: #071a0f;
+    color: #468853;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.score-btns {
+    display: flex;
+    flex-direction: column;
+}
+
